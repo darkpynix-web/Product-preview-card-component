@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Dark-cyan: hsl(158, 36%, 37%);
+  --Cream: hsl(30, 38%, 92%);
+  --Very-Dark-blue: hsl(212, 21%, 14%);
+  --Dark-Grayish-blue: hsl(228, 12%, 48%);
+  --White: hsl(0, 0%, 100%);
+  --font-family-1: "Fraunces", serif;
+  --font-family-2: "Montserrat", sans-serif;
+  /* font-family: "Fraunces", serif;
+  font-family: "Montserrat", sans-serif; */
+}
+
+body {
+  background-color: var(--Cream);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vh;
+}
+
+.main-con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45vh;
+  width: 65vh;
+  border-radius: 20px;
+  background: var(--White);
+}
+
+.lft {
+  display: flex;
+  width: 50%;
+  height: 100%;
+}
+
+.lft img {
+  width: 100%;
+  border-radius: 15px 0 0 15px;
+}
+
+.ryt {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+}
+
+.ryt h6 {
+  color: var(--Dark-Grayish-blue);
+  font-size: 14px;
+  letter-spacing: 3px;
+  margin-top: 25px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+.ryt .pss p {
+  font-family: var(--font-family-1);
+  font-weight: 700;
+  font-size: 1.6rem;
+  margin-left: 30px;
+  line-height: 1;
+}
+
+.ryt .txt p {
+  color: var(--Dark-Grayish-blue);
+  font-family: var(--font-family-2);
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.amt {
+  display: flex;
+}
+
+.amt h1 {
+  color: var(--Dark-cyan);
+  font-size: 2rem;
+  font-family: var(--font-family-1);
+  margin-left: 30px;
+}
+
+.amt small {
+  color: var(--Dark-Grayish-blue);
+  margin-left: 30px;
+  margin-top: 14px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 10px;
+  height: 50px;
+  width: 80%;
+  margin-inline: auto;
+  background: var(--Dark-cyan);
+  margin-top: 25px;
+}
+
+button img {
+  height: 20px;
+}
+
+button p {
+  margin-left: 15px;
+  color: var(--White);
+  font-weight: 700;
+  font-size: 14px;
+}
